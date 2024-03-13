@@ -1,0 +1,24 @@
+{% extends 'core/base.html' %}
+{% load static %}
+
+{% block title %} {{page.title}} {% endblock %}
+
+{% block content %}
+<!--Contenido-->
+<div class="container-fluid">
+  <div class="row justify-content-center">
+    <div class="col-lg-8">
+      <div class="contenido-otros d-flex align-items-center justify-content-center">
+        <div class="otros">
+          <h2 class="section-heading mb-4">
+            <span class="section-heading-lower">{{ page.title }}</span>
+          </h2>
+          <div class="section-content">
+            <p>{{ page.content|safe }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
