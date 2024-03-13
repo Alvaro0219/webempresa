@@ -4,7 +4,7 @@ La Sabrosa es un proyecto web desarrollado en Django que presenta un restaurante
 
 ## Instalación
 
-1. Clona el repositorio desde GitHub: <code>git clone https://github.com/tu-usuario/la-sabrosa.git</code>
+1. Clona el repositorio desde GitHub: <code>git clone https://github.com/Alvaro0219/webempresa.git</code>
 2. Crea y activa un entorno virtual:
 <code>python3 -m venv venv</code>
 <code>source venv/bin/activate</code>
